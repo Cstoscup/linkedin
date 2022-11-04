@@ -1,0 +1,85 @@
+body {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+ul {
+  margin: 0 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+button {
+  font-family: 'Source Sans 3', sans-serif;
+  padding: 10px 40px;
+  background-color: #0077b5;
+  border: 2px solid #0077b5;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background-color: white;
+  color: #0077b5;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.time-to-post {
+  display: block;
+  margin: 32px auto;
+}
+
+.poll {
+  display: block;
+  height: 300px;
+  margin: 40px auto;
+}
+
+.connect-title {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 110px;
+  margin-bottom: 10px;
+}
+
+.emoji {
+  font-size: 100px;
+  text-align: center;
+}
